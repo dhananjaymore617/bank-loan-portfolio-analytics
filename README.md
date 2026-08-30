@@ -81,3 +81,16 @@ bank-loan-portfolio-analytics/
 ## Business Insights
 
 See `insights/business_insights.md` for portfolio findings derived from the dataset and report.
+
+SUMMARY PAGE
+<img width="1322" height="740" alt="image" src="https://github.com/user-attachments/assets/4f130f66-734b-417a-9157-6f2bb91092af" />
+
+OVERVIEW PAGE
+<img width="1322" height="742" alt="image" src="https://github.com/user-attachments/assets/c3a55002-93e2-4c0d-a529-14aab81ac146" />
+
+DETAILS PAGE
+<img width="1322" height="742" alt="image" src="https://github.com/user-attachments/assets/ee4bc20d-1301-4ae5-92b8-d3d6d64dfe2f" />
+
+
+
+
