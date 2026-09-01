@@ -1,7 +1,9 @@
 # Project Workflow
 
-## End-to-End Pipeline
+## Basic Pipeline
+CSV/Excel → Snowflake → SQL → Power Query → Power BI
 
+## End-to-End Detail Pipeline
 CSV / Excel → Snowflake RAW_DATA → Snowflake Stream → Snowflake Task →
 Analytics / Cleaned Data → Power Query → Power BI Data Model → DAX
 Measures → Dashboard & Business Analysis
