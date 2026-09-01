@@ -1,4 +1,4 @@
-# Bank Loan Portfolio Analytics
+# Loan Risk & Profitability Analytics
 
 An end-to-end bank loan portfolio analytics project using **Snowflake, SQL, Power Query and Power BI**.
 
@@ -8,15 +8,18 @@ An end-to-end bank loan portfolio analytics project using **Snowflake, SQL, Powe
 
 ## Objective
 
-Analyze loan applications, funding, repayments, loan quality and borrower/loan characteristics through an interactive Power BI report.
+Evaluate loan portfolio risk and profitability by analyzing loan quality, funding, repayments, borrower characteristics and key loan segments through an interactive Power BI report.
 
 ## Technology Stack
 
-- Snowflake — data warehouse and SQL analysis
-- SQL — portfolio KPIs and analytical queries
-- Power Query — data transformation layer
-- Power BI — semantic model, DAX and reporting
-- CSV — source dataset
+- Snowflake — Data warehouse, raw/analytics layers and automated incremental processing.
+    → Snowflake Streams - Change tracking for newly inserted/changed records.
+    → Snowflake Tasks - Scheduled automated processing.
+    → MERGE - Incremental synchronization of cleaned records.
+- SQL — Data validation, cleaning, KPI calculations and analytical queries.
+- Power Query — data transformation layer.
+- Power BI — Data modeling, DAX and interactive visualizations/reporting.
+- CSV — source dataset.
 
 ## Snowflake Architecture
 
@@ -27,8 +30,6 @@ BANK_ANALYTICS
 └── ANALYTICS
     └── FINANCIAL_LOAN_CLEANED
 ```
-
-The source dataset was already cleaned before Snowflake ingestion. Snowflake was used for warehouse setup, data organization, validation, analytics-table creation and SQL analysis.
 
 ## Analysis Areas
 
@@ -46,7 +47,7 @@ The source dataset was already cleaned before Snowflake ingestion. Snowflake was
 
 ## Power BI Report
 
-The report contains three pages:
+The report containing pages:
 
 - **Summary** — executive KPIs and portfolio quality
 - **Overview** — portfolio trends and categorical analysis
@@ -75,7 +76,11 @@ bank-loan-portfolio-analytics/
 │   ├── data_model.png
 │   └── screenshots/
 ├── insights/
-└── documentation/
+├── documentation/
+│   ├──PRE_LOAD_DATA_QUALITY_CHECKLIST.md
+│   ├── Pre_Load_Data_Quality_Checklist.pdf
+│   ├── Project_Workflow.md
+│   ├── data_dictionary.md
 ```
 
 ## Business Insights
