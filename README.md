@@ -93,6 +93,9 @@ SUMMARY PAGE
 OVERVIEW PAGE
 <img width="1322" height="742" alt="image" src="https://github.com/user-attachments/assets/c3a55002-93e2-4c0d-a529-14aab81ac146" />
 
+RISK ANALYSIS
+<img width="1307" height="735" alt="image" src="https://github.com/user-attachments/assets/b3cc2148-9949-42ed-bff4-d5a2f9766567" />
+
 DETAILS PAGE
 <img width="1322" height="742" alt="image" src="https://github.com/user-attachments/assets/ee4bc20d-1301-4ae5-92b8-d3d6d64dfe2f" />
 
